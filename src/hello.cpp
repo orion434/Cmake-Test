@@ -39,14 +39,14 @@ int main()
 */
 
 /* 	[out = std::ref(std::cout << "Hello ")]
-    Initialising the value out as standard reference wrapper around the result valur of
+    Initialising the value out as standard reference wrapper around the result value of
     calling the insert operator on the C out global variable with the string "Hello "
 
                                             ()
     Lambda is talinkg no parameters 
 											   { out.get() << "World\n"; }
-    De-reference the reference wrapper to get back the reference with the .get method and 
-    then we will call "World\n"
+    De-reference (<<) the reference wrapper to get back the reference with the .get method
+    and then we will call "World\n"
      																	   ();
     Invoke Lambda
  */
