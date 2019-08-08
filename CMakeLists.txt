@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.0.0 FATAL_ERROR)
 project(CMAKE_TEST)
 
+# Example taken from this video: https://www.youtube.com/watch?v=HPMvU64RUTY
+
 # Enable warnings
 if (MSVC) # if Microsoft Visual Studio
 	add_compile_options(/W4)
